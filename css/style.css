@@ -1,0 +1,260 @@
+:root{
+ --primary-text-color:#757575;
+ --title-text-color:#212121;
+ --secondary-title-text-color:#FFFFFF;
+ --logo-text-color:#000000;
+ --accent-color:#2196F3;
+ --primary-background-color:#F5F5F5;
+ --secondary-background-color:#2F303A;
+ --third-background-color:#F5F4FA;
+ --header-background-color:#FFFFFF;
+ --footer-adress-contacts-color:rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+.page-header{
+    color:var(--header-background-color);
+}
+.logo{
+    color:var(--logo-text-color);
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+
+}
+.logo-web{
+    color:var(--accent-color) ;
+    
+    }
+
+    .link {
+        text-decoration: none;
+    }
+ul{
+    list-style: none;
+}
+/* стилізація навігації сайту */
+.site-nav {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav :hover, .site-nav :focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color:var(--accent-color)
+}
+
+/* стилізація контактів */
+.contact-us{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-us :hover, .contact-us :focus{
+    color: var(--accent-color);
+    
+    
+
+}
+/* стилізація секції hero */
+.hero{
+    background: var(--secondary-background-color);
+    color: var(--secondary-title-text-color);
+    
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.section-title{
+    color: var(--title-text-color);
+    
+}
+
+/* features */
+.features {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+}
+.features .title {
+
+    color:var(--title-text-color);
+    
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+
+text-transform: uppercase;
+}
+/* section work */
+.work-title{
+    color: var(--title-text-color);
+    
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+
+}
+
+/* section team */
+.workers{
+   
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+
+
+}
+.workers-title{
+    color: var(--title-text-color);
+    
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+
+
+
+}
+.workers-title-team{
+    color: var(--title-text-color);
+   
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+
+
+
+}
+
+/* button */
+.button{
+    color: var(--title-text-color);
+    background: var(--primary-background-color);
+    font-family: inherit;
+}
+.button.primary {
+    background:var(--accent-color);
+    color:var(--secondary-title-text-color);  
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.button.primary :hover, .button.primary :focus {
+
+    color: var(--title-text-color);
+    background: var(--third-background-color);
+}
+
+
+.button.secondary{
+    background: var(--third-background-color);
+    color: var(--title-text-color);
+}
+.button.secondary :hover, .button.secondary :focus{
+    background: var(--accent-color);
+    color: var(--secondary-title-text-color);
+}
+.visually-hidden{
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* footer */
+
+.page-footer{
+    color: var(--secondary-title-text-color);
+    background: var(--secondary-background-color);
+}
+.adress{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+}
+.adress-contacts{
+    color: var(--footer-adress-contacts-color);
+
+}
+/* стилізація портфоліо */
+.filter{
+    color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+}
+.examples{
+    color: var(--primary-text-color);
+    
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+
+
+
+}
+.examples-title{
+    color: var(--title-text-color);
+   
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+
+
+letter-spacing: 0.06em;
+
+}
+
+
+/*колір основний тексту #757575 /*
+/* колір заголовків основний #212121 /*
+/* колір заголовків другорядний #FFFFFF /*
+/* колір акцент #2196F3 /*
+/* колір лого #000000 #2196F3 /*
+/* колір фону основний background: #F5F5F5; */
+/* колір фону другорядний background: #2F303A; */
+/* колір фону третій background: #F5F4FA; */
